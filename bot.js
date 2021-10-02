@@ -26,7 +26,7 @@ const Language = require('./language');
 const Lang = Language.getString('updater');
 
 // Sql
-const XDB = config.DATABASE.define('mafia', {
+const XDB = config.DATABASE.define('Xtroid', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -68,7 +68,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function Lasimafia () {
+async function LasiXtroid () {
     var clh = { cd: 'L3Jvb3QvWC1Ucm9pZC8=', pay: '' }    
     var ggg = Buffer.from(clh.cd, 'base64')
     var ddd = ggg.toString('utf-8')
@@ -122,126 +122,126 @@ async function Lasimafia () {
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('994')) { // Azerbayjan
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { // Sri Lanka
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { // Portugal
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Indian
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { // Germany
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { // Brazil
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { // Spain
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) { // Italy 
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Kazakhistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time + '\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 mafia'
+                const biography = '🥏 ' + utch + '\n⌚ ' + ov_time +'\n\n  🚀 X-Troid'
                 await conn.setStatus(biography)
             }
         }
@@ -288,10 +288,10 @@ async function Lasimafia () {
         }
     })    
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('m-')}${chalk.blue.bold('afia')}
+        console.log(`${chalk.green.bold('X-')}${chalk.blue.bold('Troid')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
-${chalk.blue.italic('🚀 Connecting to your mafia... Please Wait.')}`);
+${chalk.blue.italic('🚀 Connecting to your xtroid... Please Wait.')}`);
     });
     conn.on('credentials-updated', async () => {
         console.log(
@@ -333,9 +333,9 @@ ${chalk.blue.italic('🚀 Connecting to your mafia... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let aftroid = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('🚀 mafia' + aftroid));
+        console.log(chalk.bgGreen('🚀 X-Troid' + aftroid));
         await new Promise(r => setTimeout(r, 500));
-        let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*🚀 mafia චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*🚀 mafia භාවිතා කිරීම ගැන ස්තූතියි  💌*\n    *- Liza*' : '*🚀 mafia Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using 🚀 mafia 💌*\n    *- Liza*'
+        let LIZA_ACTION = config.LANG == 'SI' || config.LANG == 'EN'? '*🚀 X-TOID චැට්බෝට් ලෙස ක්රියා කරයි!*  \n\nමෙම ප්රකාරයේ පරමාර්ථය වන්නේ bot සම්පුර්ණයෙන්ම ක්රියාකාරී කෘතිම බුද්ධියට හරවා ගැනීමයි.\n_කෘතීම බුද්ධිය ඉවත් කිරීමට_ *.liza off* _ඔබට ඔබේ විධානය භාවිතා කළ හැකිය._\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*\n    *- Liza*' : '*🚀 X-Troid Working as a Chatbot!  *\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.liza off* _command to return to normal mode._\n\n*Thanks For Using 🚀 X-Troid 💌*\n    *- Liza*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -353,7 +353,7 @@ ${chalk.blue.italic('🚀 Connecting to your mafia... Please Wait.')}`);
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🚀 mafia Public  ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE: private_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 mafia භාවිතා කිරීම ගැන ස්තූතියි  💌* ', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🚀 X-Troid Public  ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE: private_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌* ', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -379,7 +379,7 @@ ${chalk.blue.italic('🚀 Connecting to your mafia... Please Wait.')}`);
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*🚀 mafia Working as Public! 👰*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*🚀 X-Troid Working as Public! 👰*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -408,7 +408,7 @@ ${chalk.blue.italic('🚀 Connecting to your mafia... Please Wait.')}`);
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🚀 mafia Private  ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 mafia භාවිතා කිරීම ගැන ස්තූතියි , MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🚀 X-Troid Private  ලෙස ක්රියා කරයි!  *\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot පොදු කිරීමට .වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🚀 X-Troid භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න https://www.youtube.com/watch?v=mDnJ7q3S3eY 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -434,7 +434,7 @@ ${chalk.blue.italic('🚀 Connecting to your mafia... Please Wait.')}`);
                 if (config.AILIZA == 'true') {
                     await conn.sendMessage(conn.user.jid, LIZA_ACTION, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*🚀 mafia  Working as Private! 👰*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using 🚀 mafia 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*🚀 X-Troid  Working as Private! 👰*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using 🚀 X-Troid 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -692,8 +692,8 @@ await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageT
                             if (config.NOLOG == 'true') return;
 
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [🚀 mafia] --*' + 
-                                '\n*🚀 mafia an error has occurred!*'+
+                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [🚀 X-Troid] --*' + 
+                                '\n*🚀 X-Troid an error has occurred!*'+
                                 '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
                                 '\n*You can write to our Telegram group for help.*' +
                                 '\n*Aslo you can join our support group:* https://chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll' +
@@ -707,7 +707,7 @@ await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageT
                                 );
                             }
                             else if (error.message.includes('conversation')) {
-                                return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [🚀 mafia] ⚕️*' + 
+                                return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [🚀 X-Troid] ⚕️*' + 
                                     '\n========== ```Error Resolved!``` ==========' +
                                     '\n\n*Main Error:* _Deleting Plugin_' +
                                     '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
@@ -777,8 +777,8 @@ await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageT
                                 }
                             }
                             else {
-                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [🚀 mafia] --*' + 
-                                    '\n*🚀 mafia an error has occurred!*'+
+                                await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [🚀 X-Troid] --*' + 
+                                    '\n*🚀 X-Troid an error has occurred!*'+
                                     '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
                                     '\n*You can write to our Telegram group for help.*' +
                                     '\n*Aslo you can join our support group:* https://chat.whatsapp.com/LUbUB7edSU3H0uRgLuvAll' +
@@ -792,7 +792,7 @@ await conn.sendMessage(msg.key.remoteJid, Buffer.from(lasiyasimg.data), MessageT
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [🚀 mafia] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [🚀 X-Troid] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Deleting Plugin_' +
                                         '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +

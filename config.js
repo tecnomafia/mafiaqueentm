@@ -23,17 +23,17 @@ module.exports = {
     MENUTEXT: process.env.MENU === undefined ?'Admin' : process.env.MENU,
     CMENUTEXT: process.env.CUSTOMLIST === undefined ?'' : process.env.CUSTOMLIST,
     MENU_IMAGE: process.env.MENUIMG === undefined ?'' : process.env.MENUIMG,
-    CAPTION_KEY: process.env.CP === undefined ?'    ⚜mafia Pro ⚜' : process.env.CP,
+    CAPTION_KEY: process.env.CP === undefined ?'    ⚜ X-Troid Pro ⚜' : process.env.CP,
     ALIVETEXT: process.env.ALIVEMSG === undefined ?'😈 Admin 😈' : process.env.ALIVEMSG,
-    ALIVEIMG: process.env.ALIVEIMG === undefined ? '' : process.env.ALIVEIMG,
+    ALIVEIMG: process.env.ALIVEIMG === undefined ? 'https://telegra.ph/file/a143b34753c8434058e87.jpg' : process.env.ALIVEIMG,
     GIF_WEL: process.env.GIF_WEL === undefined ?'https://netfiletolink.herokuapp.com/49353' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
 
 
-    SESSION: process.env.A_mafia_SESSION === undefined ? '' : process.env.A_mafia_SESSION,
+    SESSION: process.env.A_XTROID_SESSION === undefined ? '' : process.env.A_XTROID_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
-    GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegpg' : process.env.GAN_IMAGE,
+    GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegra.ph/file/b11ff90ad6a02293fefaf.jpg' : process.env.GAN_IMAGE,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
 

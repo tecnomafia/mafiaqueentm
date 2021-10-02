@@ -1,13 +1,13 @@
 
 
 function successfullMessage(msg) {
-    return "✅ *mafia*:  ```" + msg + "```"
+    return "✅ *WhatsAsena*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *mafia*:  ```" + msg + "```"
+    return "🛑 *WhatsAsena*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *mafia*:  ```" + msg + "```"
+    return "⏺️ *WhatsAsena*:  ```" + msg + "```"
 }
 
 

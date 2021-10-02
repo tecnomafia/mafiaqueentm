@@ -1,15 +1,15 @@
 {
-    "name": "mafia",
-    "description": "Coded By mafia",
-    "logo": "http",
+    "name": "Xtroid",
+    "description": "Coded By Lasiya",
+    "logo": "https://telegra.ph/file/2bb85d7b80b9ad96bcb96.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
-    "repository": "https://github.com/tecnomafia/mafiaqueensweet.git",
-    "website":   "las.ml",
+    "repository": "https://github.com/1XusernameX1/lizy",
+    "website":   "lasiya.ml",
     "success_url": "https://t.me/danumabots",
     "stack": "container",
     "env": {
-        "A mafia_SESSION": {
-            "description": "Type here yours mafia Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
+        "A_XTROID_SESSION": {
+            "description": "Type here yours X-Troid Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
         "SUDO": {
@@ -173,12 +173,12 @@
         "SONDOWNMSG": {
             "description": "Song downloading message;",
             "required": true,
-            "value": "╭┄┄┉♫♪♫┉┄┄╮\n*Searching song for mafia➧*\n╰┄┄┉♫♪♫┉┄┄╯"
+            "value": "╭┄┄┉♫♪♫┉┄┄╮\n*Searching song➧*\n╰┄┄┉♫♪♫┉┄┄╯"
         },
         "SONGUPMSG": {
             "description": "Song Uploading message;",
             "required": true,
-            "value": ".mafia—— uploading ——.ılı.\n   ⏫|◁      II         ▷|⏫"
+            "value": ".ılı.—— uploading ——.ılı.\n   ⏫|◁      II         ▷|⏫"
         }
 
     },
